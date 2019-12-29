@@ -1,2 +1,3 @@
-# Blogs
-Blogs repo
+### Blogs
+
+Learn and write 
