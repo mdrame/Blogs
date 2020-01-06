@@ -79,7 +79,7 @@ class ViewController: UIViewController {
     func reset() {
         // animate outlet that are meant to be reset.
         UIView.animate(withDuration: 0.3) {
-            self.pointsLabelOutlet.text = "0 / 100"
+            self.pointsLabelOutlet.text = "0 / 350"
             self.redeemButtonOutlet.isHidden = true
             self.congratsOutlet.isHidden = true
             self.pizzaPoint = 0
