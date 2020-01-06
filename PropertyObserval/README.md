@@ -6,9 +6,5 @@
 
 <img   src="ui/2.jpeg" width="260" height="550" align="left" >
 
-<img   src="ui/3.jpeg" width="260" height="550" align="right">
+<img   src="ui/3.jpeg" width="260" height="550" align="left">
 
-
-#### Language :
-
-* Swift
