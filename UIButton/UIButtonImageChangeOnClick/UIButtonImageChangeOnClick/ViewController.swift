@@ -10,22 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
     
-  // ---------------------------------- //
- // - - - - - - -  VARS - - - - - - -  //
-// ---------------------------------- //
+    // ---------------------------------- //
+    // - - - - - - -  VARS - - - - - - -  //
+    // ---------------------------------- //
     
     var isOn: Bool = false
     
     
-  // ---------------------------------- //
- // - - - - - - -  OUTLETS - - - - - - //
-// ---------------------------------- //
+    // ---------------------------------- //
+    // - - - - - - -  OUTLETS - - - - - - //
+    // ---------------------------------- //
     
     
     
-  // ---------------------------------- //
- // - - - - - - - ACTION - - - - - - - //
-// ---------------------------------- //
+    // ---------------------------------- //
+    // - - - - - - - ACTION - - - - - - - //
+    // ---------------------------------- //
     
     @IBAction func buttonPress(_ sender: UIButton) {
         // "Use this method to toggle a Boolean value from true to false or from false to true." [ Apple Doc ]
@@ -48,21 +48,14 @@ class ViewController: UIViewController {
             print("Button Pressed")
         default:
             view.setImage(off, for: .normal)
-             print("Button Unpressed")
+            print("Button Unpressed")
         }
         
     }
     
-    
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
-    
-
-
 }
 
