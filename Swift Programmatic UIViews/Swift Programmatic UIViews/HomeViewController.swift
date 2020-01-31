@@ -15,7 +15,7 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         // View Background
-        view.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+        view.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         
         // adding newlly programmatic uiview to viewcontroller view
         view.addSubview(ourUIView)
@@ -44,7 +44,7 @@ class HomeViewController: UIViewController {
         programmaticUIView.layer.cornerRadius = 15
         
         // Shadow
-        programmaticUIView.layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        programmaticUIView.layer.shadowColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
         programmaticUIView.layer.shadowOffset = CGSize(width: 0, height: 0)
         programmaticUIView.layer.shadowRadius =  15
         programmaticUIView.layer.shadowOpacity = 10
