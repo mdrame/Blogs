@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
@@ -31,7 +30,7 @@ class HomeViewController: UIViewController {
     
     // MARK: -> Programmatic UIViews
     
-    
+//    
     // MARK: -> UIView
     
     var ourUIView : UIView {
@@ -120,7 +119,6 @@ class HomeViewController: UIViewController {
     // MARK: -> UIImageView
     
     var ourUIImageView : UIImageView {
-        
         
         let programmaticUIImageView = UIImageView(frame: CGRect(x: 10 , y: 550, width: view.frame.size.width / 2 + 185 , height: 300))
         
