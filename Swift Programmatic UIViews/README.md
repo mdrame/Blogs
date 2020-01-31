@@ -10,11 +10,11 @@
 
 <p align="center">
 <img src="UI/two.png"
-         alt="ViewController" width="500" height="450" align="center">
+         alt="ViewController"  align="center">
   
  <p align="center">
 <img src="UI/one.png"
-         alt="ViewController" width="500" height="450" align="center">
+         alt="ViewController"  align="center">
 
 
 ### Description:
